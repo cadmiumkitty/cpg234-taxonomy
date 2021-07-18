@@ -1,0 +1,26 @@
+@id,rdf:type,skos:prefLabel,skos:altLabel,skos:definition,skos:note,skos:inScheme,skos:broader,skos:topConceptOf,pav:version,dcterms:source
+cpg234:scheme,skos:ConceptScheme,APRA CPG 234 Information Security June 2019,,"Prudential practice guides (PPGs) provide guidance on APRA's view of sound practice in 
+particular areas. PPGs frequently discuss statutory requirements from legislation, 
+regulations or APRA's prudential standards, but do not themselves create enforceable 
+requirements. PPGs target areas where APRA continues to identify weaknesses as part of 
+its ongoing supervisory activities, and do not seek to provide an all-encompassing 
+framework, or to replace or endorse existing industry standards and guidelines.
+This PPG aims to assist regulated entities in maintaining information security. It is designed 
+to provide guidance to Boards, senior management, risk management and information 
+security specialists (management and operational).
+Subject to meeting APRA's prudential requirements, regulated entities have the flexibility to 
+maintain information security in a manner best suited to achieving their business objectives. 
+Not all of the practices outlined in this PPG will be relevant for every regulated entity and 
+some aspects may vary depending upon the size and nature of the entity.",,,,,0.0.1,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+cpg234:0300,skos:Concept,Information security capability,,,,cpg234:scheme,,cpg234:scheme,,
+cpg234:0301,skos:Concept,Assessing sufficiency of capability,,,,cpg234:scheme,cpg234:0300,,,
+cpg234:0322,skos:Concept,Information security capabilities,,,CPG 234 Information Security s 16,cpg234:scheme,cpg234:0301,,,
+cpg234:0323,skos:Concept,Vulnerability and threat management,,,CPG 234 Information Security s 16(a),cpg234:scheme,cpg234:0322,,,
+cpg234:0324,skos:Concept,Situational awareness and intelligence,,,CPG 234 Information Security s 16(b),cpg234:scheme,cpg234:0322,,,
+cpg234:0325,skos:Concept,Information security operations and administration,,,CPG 234 Information Security s 16(c),cpg234:scheme,cpg234:0322,,,
+cpg234:0326,skos:Concept,"Secure design, architecture and consultation",,,CPG 234 Information Security s 16(d),cpg234:scheme,cpg234:0322,,,
+cpg234:0327,skos:Concept,"Security testing, including penetration testing",,,CPG 234 Information Security s 16(e),cpg234:scheme,cpg234:0322,,,
+cpg234:0328,skos:Concept,Information security reporting and analytics,,,CPG 234 Information Security s 16(f),cpg234:scheme,cpg234:0322,,,
+cpg234:0329,skos:Concept,"Incident detection and response, including recovery, notification and communication",,,CPG 234 Information Security s 16(g),cpg234:scheme,cpg234:0322,,,
+cpg234:0330,skos:Concept,"Information security investigation, including preservation of evidence and forensic analysis",,,CPG 234 Information Security s 16(h),cpg234:scheme,cpg234:0322,,,
+cpg234:0331,skos:Concept,Information security assurance,,,CPG 234 Information Security s 16(i),cpg234:scheme,cpg234:0322,,,

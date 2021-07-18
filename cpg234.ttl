@@ -1,0 +1,93 @@
+@prefix cpg234: <https://dalstonsemantics.com/reg/au/apra/cpg234/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+cpg234:0323 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(a)" ;
+    skos:prefLabel "Vulnerability and threat management" .
+
+cpg234:0324 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(b)" ;
+    skos:prefLabel "Situational awareness and intelligence" .
+
+cpg234:0325 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(c)" ;
+    skos:prefLabel "Information security operations and administration" .
+
+cpg234:0326 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(d)" ;
+    skos:prefLabel "Secure design, architecture and consultation" .
+
+cpg234:0327 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(e)" ;
+    skos:prefLabel "Security testing, including penetration testing" .
+
+cpg234:0328 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(f)" ;
+    skos:prefLabel "Information security reporting and analytics" .
+
+cpg234:0329 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(g)" ;
+    skos:prefLabel "Incident detection and response, including recovery, notification and communication" .
+
+cpg234:0330 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(h)" ;
+    skos:prefLabel "Information security investigation, including preservation of evidence and forensic analysis" .
+
+cpg234:0331 a skos:Concept ;
+    skos:broader cpg234:0322 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16(i)" ;
+    skos:prefLabel "Information security assurance" .
+
+cpg234:0300 a skos:Concept ;
+    skos:inScheme cpg234:scheme ;
+    skos:prefLabel "Information security capability" ;
+    skos:topConceptOf cpg234:scheme .
+
+cpg234:0301 a skos:Concept ;
+    skos:broader cpg234:0300 ;
+    skos:inScheme cpg234:scheme ;
+    skos:prefLabel "Assessing sufficiency of capability" .
+
+cpg234:0322 a skos:Concept ;
+    skos:broader cpg234:0301 ;
+    skos:inScheme cpg234:scheme ;
+    skos:note "CPG 234 Information Security s 16" ;
+    skos:prefLabel "Information security capabilities" .
+
+cpg234:scheme a skos:ConceptScheme ;
+    dcterms:source <https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf> ;
+    pav:version "0.0.1" ;
+    skos:definition """Prudential practice guides (PPGs) provide guidance on APRA's view of sound practice in 
+particular areas. PPGs frequently discuss statutory requirements from legislation, 
+regulations or APRA's prudential standards, but do not themselves create enforceable 
+requirements. PPGs target areas where APRA continues to identify weaknesses as part of 
+its ongoing supervisory activities, and do not seek to provide an all-encompassing 
+framework, or to replace or endorse existing industry standards and guidelines.
+This PPG aims to assist regulated entities in maintaining information security. It is designed 
+to provide guidance to Boards, senior management, risk management and information 
+security specialists (management and operational).
+Subject to meeting APRA's prudential requirements, regulated entities have the flexibility to 
+maintain information security in a manner best suited to achieving their business objectives. 
+Not all of the practices outlined in this PPG will be relevant for every regulated entity and 
+some aspects may vary depending upon the size and nature of the entity.""" ;
+    skos:prefLabel "APRA CPG 234 Information Security June 2019" .
+
