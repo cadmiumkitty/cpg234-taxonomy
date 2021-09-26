@@ -2,9 +2,9 @@
 
 This taxonomy of information security capabilities is derived from [CPG 234 Information Security](https://www.apra.gov.au/information-security). This initial version can be extended to cover the entirety of CPG 234.
 
-Use it with [Confluence](https://www.atlassian.com/software/confluence) to annotate Confluence pages and track alignment with CPG 234.
+Use it with [Taxonomies for Confluence](https://dalstonsemantics.com/services/taxonomies-for-confluence/) to index [Confluence](https://www.atlassian.com/software/confluence) pages and track alignment with CPG 234.
 
-![CPG 234 in Confluence Semantics](cpg234-confluence.png "CPG 234 in Confluence Semantics")
+![CPG 234 in Taxonomies for Confluence](cpg234-confluence.png "CPG 234 in Taxonomies for Confluence")
 
 Developed with [Simple Knowledge Organization System (SKOS)](https://www.w3.org/2004/02/skos/) this taxonomy can also be imported and published with [controlled vocabulary tools](https://github.com/gbv/bartoc.org/wiki/Software-for-controlled-vocabularies).
 
